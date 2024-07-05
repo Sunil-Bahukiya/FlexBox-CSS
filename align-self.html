@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Align-Self</title>
+    <style>
+        .container{
+            color: white;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            border: 2px solid #ccc;
+            background-color: #f4f4f4;
+            /* Display properties start */
+            display: flex;
+            height: 200px;
+            align-items: flex-start;
+            justify-content: center;
+            
+            
+        }
+        .boxs{
+            width: 100px;
+            height: 70px;
+        }
+        #box1{
+            background-color: red   ;
+            
+        }
+        #box2{
+            background-color: greenyellow   ;
+        }
+        #box3{
+            background-color: forestgreen;
+            align-self: flex-end;
+        }
+        #box4{
+            background-color: crimson;
+            align-self: center;
+        }
+        #box5{
+            background-color: gold   ;
+            align-self: flex-start;
+        }
+        #box6{
+            background-color: red   ;
+            align-self:stretch;
+        }
+        #box7{
+            background-color: fuchsia   ;
+        }
+        #box8{
+            background-color: gray;
+            align-self: center;
+        }
+        #box9{
+            background-color: hotpink   ;
+            align-self: flex-end;
+        }
+        
+        
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="boxs" id="box1">One</div>
+        <div class="boxs" id="box2">Two</div>
+        <div class="boxs" id="box3">Three</div>
+        <div class="boxs" id="box4">Four</div>
+        <div class="boxs" id="box5">Five</div>
+        <div class="boxs" id="box6">Six</div>
+        <div class="boxs" id="box7">Seven</div>
+        <div class="boxs" id="box8">Eight</div>
+        <div class="boxs" id="box9">Nine</div>
+        
+</body>
+</html>
